@@ -1,0 +1,123 @@
+====================================================================
+Network Terminal-Based Simulator for the Dynamic Routing Capability:
+====================================================================
+
+------------------ STEP 1: INITIALIZING ROUTERS --------------------
+
+Enter Text File Name to Initialize the Roters and Neighbors:
+src/infoRouters.txt
+Initializing....
+.
+.
+.
+
+Initialization Process Completed!!!
+
+------------ STEP 2: RUNNING BUILDER AND LISTENER FUNCTIONS --------
+
+Building and Listening Packets
+.
+.
+.
+
+Generating Routing Tables
+.
+.
+.
+
+----------------- STEP 3: DISPLAYING ROUTING TABLES ----------------
+
+Router: R1
+Destination  Neighbor  Cost
+  R2           R2      100
+  R3           R3      200
+  R4           R2      250
+  R5           R3      280
+  R1           -       0
+
+Router: R2
+Destination  Neighbor  Cost
+  R2           -       0
+  R3           R4      270
+  R4           R4      150
+  R5           R4      250
+  R1           R1      100
+
+Router: R3
+Destination  Neighbor  Cost
+  R2           R4      270
+  R3           -       0
+  R4           R4      120
+  R5           R5      80
+  R1           R1      200
+
+Router: R4
+Destination  Neighbor  Cost
+  R2           R2      150
+  R3           R3      120
+  R4           -       0
+  R5           R5      100
+  R1           R2      250
+
+Router: R5
+Destination  Neighbor  Cost
+  R2           R4      250
+  R3           R3      80
+  R4           R4      100
+  R5           -       0
+  R1           R3      280
+
+===================================
+CHOOSE FROM BELOW OPTIONS:
+STEP 4. CHANGE COST BETWEEN ROUTERS 
+STEP 5. EXIT
+
+Command: (enter a numeric value i.e 4 or 5)
+4
+Typing Format Example: R1.Change_Cost(R2,400)
+Enter: 
+R1.Change_Cost(R3,400)
+----------------- STEP4: DISPLAYING UPDATED ROUTING TABLES ----------------
+
+Router: R1
+Destination  Neighbor  Cost
+  R2           R2      100
+  R3           R2      370
+  R4           R2      250
+  R5           R2      350
+  R1           -       0
+
+Router: R2
+Destination  Neighbor  Cost
+  R2           -       0
+  R3           R4      270
+  R4           R4      150
+  R5           R4      250
+  R1           R1      100
+
+Router: R3
+Destination  Neighbor  Cost
+  R2           R4      270
+  R3           -       0
+  R4           R4      120
+  R5           R5      80
+  R1           R1      200
+
+Router: R4
+Destination  Neighbor  Cost
+  R2           R2      150
+  R3           R3      120
+  R4           -       0
+  R5           R5      100
+  R1           R2      250
+
+Router: R5
+Destination  Neighbor  Cost
+  R2           R4      250
+  R3           R3      80
+  R4           R4      100
+  R5           -       0
+  R1           R3      280
+
+EXITING SIMULATOR...
+GOOD BYE!!!
