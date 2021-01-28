@@ -18,10 +18,15 @@ The application provides a Console Interface for the user to interact with the s
 Simulation:
 
 Open up the Terminal or Command prompt:
+
 $ cd src
+
 $ javac MainEngine.java
+
 $ java MainEngine
 
 -OR-
+
 $ cd src
+
 $ java -jar MainEngine.jar
